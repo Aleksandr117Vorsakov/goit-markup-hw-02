@@ -1,0 +1,124 @@
+
+.list{
+    list-style: none;
+}
+
+/* шапка */
+.logo{
+    color: #2196F3;
+}
+/* навигация */
+.site-nav .link{
+   color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+
+/* контакты */
+.contact-nav .link{
+    color: #2196F3;
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus{
+    color: #212121;
+}
+/* hero */
+.hero{
+    background: #2F303A;
+}
+.hero-title{
+    color: #FFFFFF;
+}
+/* qualities and skills */
+.details-title{
+    color: #212121;
+
+}
+.details-text{
+    color: #757575;
+}
+/* punctuality */
+.punctuality-title{
+    color: #212121;
+
+}
+.punctuality-text{
+    color: #757575;
+}
+/* planning */
+.planning-title{
+    color: #212121;
+
+}
+.planning-text{
+    color: #757575;
+}
+/* technologies */
+.technologies-title{
+    color: #212121;
+
+}
+.technologies-text{
+    color: #757575;
+}
+/* Чем мы занимаемс */
+.services-title{
+    color: #212121;
+}
+/* команда */
+.team{
+    background: #F5F4FA;
+}
+.team-title{
+    color: #212121
+}
+.team-demyanenko{
+    color: #212121;
+}
+.team-demyanenko-position{
+    color: #757575;
+}
+.team-repin{
+    color: #212121;
+}
+.team-repin-position{
+    color: #757575;
+}
+.team-tarasov{
+    color: #212121;
+}
+.team-tarasov-position{
+    color: #757575;
+}
+.team-ermakov{
+    color: #212121;
+}
+.team-ermakov-position{
+    color: #757575;
+}
+/* footer */
+.footer{
+    background: #2F303A;
+}
+.address{
+    color: #FFFFFF;
+}
+.footer-contact-link{
+    color: rgba(255, 255, 255, 0.6);
+}
+/* разделы портфолио  */
+.portfolio{
+    color: #212121;   
+}
+.portfolio .button:hover,
+.portfolio .button:focus{
+    color: #FFFFFF;
+}
+.portfolio-title{
+    color: #212121;
+}
+.portfolio-text{
+    color: #757575;
+}
