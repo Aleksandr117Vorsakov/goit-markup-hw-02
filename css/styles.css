@@ -15,11 +15,13 @@
 body{
     background-color:var(--main-background-color);
 }
-/* шапка */
+
+/* logo */
 .logo{
     color:var(--link-color);
 }
-/* навигация */
+
+/* site-nav */
 .site-nav .link{
    color:var(--heading-main-color);
 }
@@ -27,8 +29,12 @@ body{
 .site-nav .link:focus{
     color:var(--link-color);
 }
+.site-nav .link .current{
+    color: var(--link-color);
+}
 
-/* контакты */
+
+/* contact-nav */
 .contact-nav .link{
     color:var(--link-color);
 }
@@ -36,12 +42,17 @@ body{
 .contact-nav .link:focus{
     color:var(--heading-main-color);
 }
+
 /* hero */
 .hero{
     background:var(--header-footer-background-color);
 }
 .hero-title{
     color:var(--main-background-color);
+}
+.button{
+    color: var(--main-background-color);
+    background-color: var(--link-color);
 }
 /* qualities and skills */
 .details-title{
@@ -75,11 +86,11 @@ body{
 .technologies-text{
     color:var(--primary-text-color);
 }
-/* Чем мы занимаемс */
+/* services-title */
 .services-title{
     color:var(--heading-main-color);
 }
-/* команда */
+/* team */
 .team{
     background:var(--secondary-background-color);
 }
@@ -120,7 +131,7 @@ body{
 .footer-contact-link{
     color:var(--footer-contact-color);
 }
-/* разделы портфолио  */
+/* portfolio */
 .portfolio{
     color:var(--heading-main-color);   
 }
