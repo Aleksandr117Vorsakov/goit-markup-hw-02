@@ -1,124 +1,136 @@
+:root{
+    --main-background-color:#ffffff;
+    --header-footer-background-color :#2f303a;
+    --secondary-background-color:#f5f4fa;
+    --primary-text-color:#757575;
+    --heading-main-color:#212121;
+    --link-color:#2196f3;
+    --footer-contact-color:rgba(255, 255, 255, 0.6);
+}
+
 
 .list{
     list-style: none;
 }
-
+body{
+    background-color:var(--main-background-color);
+}
 /* шапка */
 .logo{
-    color: #2196F3;
+    color:var(--link-color);
 }
 /* навигация */
 .site-nav .link{
-   color: #212121;
+   color:var(--heading-main-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: #2196F3;
+    color:var(--link-color);
 }
 
 /* контакты */
 .contact-nav .link{
-    color: #2196F3;
+    color:var(--link-color);
 }
 .contact-nav .link:hover,
 .contact-nav .link:focus{
-    color: #212121;
+    color:var(--heading-main-color);
 }
 /* hero */
 .hero{
-    background: #2F303A;
+    background:var(--header-footer-background-color);
 }
 .hero-title{
-    color: #FFFFFF;
+    color:var(--main-background-color);
 }
 /* qualities and skills */
 .details-title{
-    color: #212121;
+    color:var(--heading-main-color);
 
 }
 .details-text{
-    color: #757575;
+    color:var(--primary-text-color);
 }
 /* punctuality */
 .punctuality-title{
-    color: #212121;
+    color:var(--heading-main-color);
 
 }
 .punctuality-text{
-    color: #757575;
+    color: var(--primary-text-color);
 }
 /* planning */
 .planning-title{
-    color: #212121;
+    color:var(--heading-main-color);
 
 }
 .planning-text{
-    color: #757575;
+    color:var(--primary-text-color);
 }
 /* technologies */
 .technologies-title{
-    color: #212121;
+    color:var(--heading-main-color);
 
 }
 .technologies-text{
-    color: #757575;
+    color:var(--primary-text-color);
 }
 /* Чем мы занимаемс */
 .services-title{
-    color: #212121;
+    color:var(--heading-main-color);
 }
 /* команда */
 .team{
-    background: #F5F4FA;
+    background:var(--secondary-background-color);
 }
 .team-title{
-    color: #212121
+    color:var(--heading-main-color);
 }
 .team-demyanenko{
-    color: #212121;
+    color:var(--heading-main-color);
 }
 .team-demyanenko-position{
-    color: #757575;
+    color:var(--primary-text-color);
 }
 .team-repin{
-    color: #212121;
+    color:var(--heading-main-color);
 }
 .team-repin-position{
-    color: #757575;
+    color:var(--primary-text-color);
 }
 .team-tarasov{
-    color: #212121;
+    color:var(--heading-main-color);
 }
 .team-tarasov-position{
-    color: #757575;
+    color:var(--primary-text-color);
 }
 .team-ermakov{
-    color: #212121;
+    color:var(--heading-main-color);
 }
 .team-ermakov-position{
-    color: #757575;
+    color:var(--primary-text-color);
 }
 /* footer */
 .footer{
-    background: #2F303A;
+    background:var(--header-footer-background-color);
 }
 .address{
-    color: #FFFFFF;
+    color:var(--main-background-color);
 }
 .footer-contact-link{
-    color: rgba(255, 255, 255, 0.6);
+    color:var(--footer-contact-color);
 }
 /* разделы портфолио  */
 .portfolio{
-    color: #212121;   
+    color:var(--heading-main-color);   
 }
 .portfolio .button:hover,
 .portfolio .button:focus{
-    color: #FFFFFF;
+    color:var(--main-background-color);
 }
 .portfolio-title{
-    color: #212121;
+    color:var(--heading-main-color);
 }
 .portfolio-text{
-    color: #757575;
+    color:var(--primary-text-color);
 }
