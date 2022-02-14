@@ -6,6 +6,7 @@
     --heading-main-color:#212121;
     --link-color:#2196f3;
     --footer-contact-color:rgba(255, 255, 255, 0.6);
+    --accent-color:#000000;
 }
 
 
@@ -24,6 +25,7 @@ body{
     font-size: 26px;
     line-height:1.2;
     letter-spacing: 0.03em;
+    color: var(--accent-color);
 }
 
 .logo-web{
@@ -37,7 +39,6 @@ a{
 /* site-nav */
 .site-nav .link{
    color:var(--heading-main-color);
-   font-family: Roboto;
    font-weight: 500;
    font-size: 14px;
    line-height: 1.15;
@@ -52,7 +53,6 @@ a{
     
 }
 .link-current{
-    font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
