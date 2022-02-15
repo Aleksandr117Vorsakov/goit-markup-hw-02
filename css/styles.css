@@ -15,9 +15,8 @@
 }
 body{
     background-color:var(--main-background-color);
-    font-family: Roboto, sans-serif;
-    
-}
+    font-family:Roboto,sans-serif;
+    }
 
 /* logo */
 .logo{
@@ -27,6 +26,10 @@ body{
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
+.footer>.logo{
+     color: var(--main-background-color);
+    }
+   
 
 .logo-web{
     color:var(--link-color);
@@ -63,7 +66,7 @@ a{
 
 /* contact-nav */
 .contact-nav .link{
-    color:var(--link-color);
+    color:var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -72,7 +75,7 @@ a{
 }
 .contact-nav .link:hover,
 .contact-nav .link:focus{
-    color:var(--primary-text-color);
+    color:var(--link-color);
 }
 
 /* hero */
@@ -91,6 +94,9 @@ a{
 .hero-button{
     color: var(--main-background-color);
     background-color: var(--link-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
     font-size: 16px;
     line-height: 1.8;
     display: flex;
@@ -226,7 +232,8 @@ a{
     letter-spacing: 0.03em;
 }
 .team-ermakov{
-    color:var(--heading-main-color);font-weight: 500;
+    color:var(--heading-main-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -243,6 +250,7 @@ a{
 .footer{
     background:var(--header-footer-background-color);
 }
+
 .address{
     color:var(--main-background-color);
     font-size: 14px;
@@ -269,6 +277,8 @@ a{
 .portfolio-button{
     color:var(--heading-main-color);
     background-color: var(--secondary-background-color);
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
